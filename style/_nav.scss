@@ -1,0 +1,35 @@
+
+$nav-padding: 30px;
+$nav-link-color: #0e0000;
+$nav-link-hover-color: rgba(0, 0, 255, 0);
+
+nav {
+  background-color: $body-bg-color;
+  padding: $nav-padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nvh {
+    color: rgb(22, 14, 255);
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-left: 100px;
+  }
+
+  .nvb {
+    margin-right: 100px;
+    display: flex;
+
+    a {
+      color: $nav-link-color;
+      text-decoration: none;
+      padding: 10px $nav-padding;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $nav-link-hover-color;
+      }
+    }
+  }
+}

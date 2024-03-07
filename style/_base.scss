@@ -1,0 +1,11 @@
+
+$body-bg-color: #fcfcfc;
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $body-bg-color;
+  max-width: 100%;
+}
