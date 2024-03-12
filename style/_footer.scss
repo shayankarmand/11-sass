@@ -37,30 +37,33 @@ $footer-text-color: #5e5c5c;
   }
 }
 
+
+
 .pha {
   margin-left: $footer-margin-left;
   margin-top: 6%;
 }
 
-.phb, .phc {
+.phb, .phc { max-width: 100%;
   margin-left: $footer-margin-left;
   margin-top: 4%;
   line-height: 2;
   color: $footer-text-color;
 }
 
-.phd {
-  margin-left: 60%;
-  line-height: $main-content-line-height;
-  margin-top: -20%;
+.phd { max-width: 100%;
+ transform: translate(63%,-122%);
+ line-height: 2;
+  
   color: $footer-text-color;
 }
 
-.phe {
-  margin-left: 70%;
-  line-height: $main-content-line-height;
-  margin-top: -21%;
+.phe {transform: translate(73%,-230%);line-height: 2;
+  
 }
+
+
+.pb1{max-height: 500px;}
 
 .pb2 {
   margin-left: $footer-margin-left;
@@ -117,3 +120,4 @@ $footer-text-color: #5e5c5c;
 .map {
   width: 80%;
 }
+i{ margin-left: 30px;margin-top: 10px;}
